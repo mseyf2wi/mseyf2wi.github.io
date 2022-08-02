@@ -1,0 +1,152 @@
+* {
+    margin:0px;
+    padding:0px;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+
+}
+body {
+    background-color:#FFF;
+    width:auto;
+    height:auto;
+}
+.logo img {
+    width:70px;
+    margin-top:75px
+
+}
+.logo .head h1 {
+    font-family: "Calibre", "Helvetica Neue", "Segoe UI",sans-serif;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 17px;
+    
+}
+.logo .head p {
+    font-family: "Calibre", "Helvetica Neue", "Segoe UI",sans-serif;
+    color: #f03d25;
+    font-size:15px;
+    line-height:20px;
+    text-align:center;
+    margin-top:30px
+
+}
+.form input[type='text'] {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .20);
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    font-family: "Helvetica Neue", "Segoe UI", "Helvetica", "Arial", sans-serif;
+    font-size: 17px;
+    height: 42px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37px;
+    padding: 0 16px;
+    width: 286px;
+    
+}
+.form input[type="password"] {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .20);
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    font-family: "Helvetica Neue", "Segoe UI", "Helvetica", "Arial", sans-serif;
+    font-size: 17px;
+    height: 42px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13;
+    padding: 0 16px;
+    width: 286px;
+    
+}
+.form button{
+    background: #0a7cff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 20px;
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: none;
+    white-space: nowrap;
+    outline: none;
+    
+}
+.form button{
+    border:3px solid #FFF;
+     border: none;
+    box-shadow: none;
+}
+.form button {
+    border:3px solid #FFF;
+     border: none;
+    box-shadow: none;
+}
+.form .cont {
+    display:flex;
+   justify-content: center;
+}
+form  .cont input[type="checkbox"] {
+    height:22px;
+    margin-right:3px;
+    color: #929292;
+
+}
+ form  .cont input[type="checkbox"] , p {
+    margin-top:60px; 
+ 
+ }
+
+
+ .form  .cont p {
+  
+     color: #929292;
+     font-family: "Helvetica Neue", "Segoe UI", "Helvetica", "Arial", sans-serif;
+     font-size: 15px;
+     font-weight: normal;
+ } 
+
+
+
+
+@media only screen (max-width: 786px){
+	form{
+		width: 100%;
+	}
+	.form input{
+		width: 95%;
+	}
+	.form button
+	{
+	    
+		font-size: 18px;
+        text-align: center;
+        
+    }
+    .form .cont input[type="checkbox"] {
+        height:12.2
+    }
+    
+    
+
+
+
+    
+  
+}
+
